@@ -46,7 +46,7 @@ class DataLoader(object):
 				text_column_name, 
 				conv_dir,
 				prev_utters_num=0, post_utters_num=0,
-				sheet_names=None):
+				sheet_names=None, Asi=True):
 		'''
 		@args:
 			- annotation_file: String. The path to the Excel file holding the labeled data
